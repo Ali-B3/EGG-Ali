@@ -1,0 +1,10 @@
+Añadir un único archivo:
+git add <archivo>
+Añadir todo de una vez:
+git add .
+Si revisas la captura de pantalla del git status, verás que hay nombres de archivos en rojo - esto
+significa que los archivos sin preparación. Estos archivos no serán incluidos en tus commits hasta
+que no los añadas.
+Hacemos un git add . para agregar nuestro archivo txt. Una vez que hacemos el git add hacemos
+otro git status, ahora veremos que los archivos que estaban en rojo, están en verde, esto quiere
+decir que ya los hemos agregado para hacer nuestro commit.
